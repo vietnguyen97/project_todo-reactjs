@@ -22,7 +22,30 @@
 .App-link {
   color: #61dafb;
 }
-
+.mt30{
+  margin-left: 50%;
+}
+.mt30:hover{
+  color: red;
+  cursor: pointer;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.ml-5{
+  margin: 0 5px;
+}
+.pr-5{
+  padding-right: 15px;
+}
+.sort_selected::after{
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
